@@ -1,23 +1,8 @@
 body {
-  background-color: black;
-  color: azure;
+  background-color: #222831;
+  color: #00adb5;
 }
-
 .App {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.searchResault {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-
-  max-width: 40%;
-  margin-top: 30px;
-}
-
-.searchResault ul {
-  list-style-type: none;
-  padding-inline-start: 0;
+  max-width: 800px;
+  margin: 30px auto;
 }
