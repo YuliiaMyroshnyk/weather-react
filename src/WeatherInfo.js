@@ -15,11 +15,7 @@ export default function WeatherInfo(props) {
       <div className="row">
         <div className="col-6">
           <div className="clearfix">
-            <img
-              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
-              className="float-left"
-              alt="logo"
-            />
+            {<img src={props.data.iconUrl} className="float-left" alt="logo" />}
             <span className="currentTemperature">
               {Math.round(props.data.temperature)}
             </span>
