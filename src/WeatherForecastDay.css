@@ -1,0 +1,12 @@
+.forecastDay {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.forecastTemp {
+  font-size: 15px;
+}
+.forecastTempMax {
+  margin-right: 10px;
+  font-weight: 500;
+}

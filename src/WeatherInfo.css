@@ -1,0 +1,46 @@
+.WeatherInfo h1 {
+  font-size: 30px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.WeatherInfo h2 {
+  font-size: 25px;
+  font-weight: 50;
+  line-height: 29px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.WeatherInfo ul {
+  margin: 0;
+  padding: 0;
+}
+
+.WeatherInfo li {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 21px;
+  list-style: none;
+}
+
+.WeatherInfo .currentIndexes {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.WeatherInfo .currentTemperature {
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 400;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.WeatherInfo .unit {
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  top: -10px;
+}

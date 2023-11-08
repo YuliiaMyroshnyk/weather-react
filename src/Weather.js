@@ -3,6 +3,7 @@ import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
 import "./Weather.css";
+import { ThreeDots } from "react-loader-spinner";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -46,7 +47,7 @@ export default function Weather(props) {
           <div className="row">
             <div className="col-9">
               <input
-                type="rearch"
+                type="search"
                 placeholder="Enter a city.."
                 className="form-control"
                 autoFocus="on"
@@ -54,7 +55,7 @@ export default function Weather(props) {
               ></input>
             </div>
             <div className="col-3">
-              <input type="submit" value="Search" />
+              <input className="searchButton" type="submit" value="Search" />
             </div>
           </div>
         </form>
@@ -64,6 +65,19 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "Loading...";
+    return (
+      <div className="spinner">
+        <ThreeDots
+          height="80"
+          width="80"
+          radius="9"
+          color="#00fff5"
+          ariaLabel="three-dots-loading"
+          wrapperStyle={{}}
+          wrapperClassName=""
+          visible={true}
+        />
+      </div>
+    );
   }
 }
