@@ -9,14 +9,17 @@ export default function App() {
         <Weather defaultCity="London" />
         <footer>
           <div>
-            <a
-              href="https://github.com/YuliiaMyroshnyk/weather-react"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Open-source code
-            </a>{" "}
-            by Yuliia Myroshnyk
+            <p>
+              This project was coded by Yuliia Myroshnyk and it is{" "}
+              <a
+                href="hhttps://github.com/YuliiaMyroshnyk/weather-react"
+                target="_blank"
+                title="GitHub project profile"
+                rel="noreferrer"
+              >
+                open-source code
+              </a>
+            </p>
           </div>
         </footer>
       </div>

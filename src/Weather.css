@@ -3,6 +3,7 @@
   border-radius: 5px;
   padding: 20px;
   text-align: center;
+  box-shadow: 10px 10px 20px rgba(0, 255, 245, 0.1);
 }
 
 .Weather .searchButton {

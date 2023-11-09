@@ -10,3 +10,13 @@
   margin-right: 10px;
   font-weight: 500;
 }
+
+.forecastTempMin {
+  opacity: 0.7;
+}
+
+.index {
+  font-size: 11px;
+  position: relative;
+  top: -3px;
+}

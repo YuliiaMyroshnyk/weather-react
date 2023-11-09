@@ -19,10 +19,12 @@ export default function WeatherForecastDay(props) {
 
       <div className="forecastTemp">
         <span className="forecastTempMax">
-          {Math.round(props.data.temperature.maximum)}°C
+          {Math.round(props.data.temperature.maximum)}
+          <span className="index">°C</span>
         </span>
         <span className="forecastTempMin">
-          {Math.round(props.data.temperature.minimum)}°C
+          {Math.round(props.data.temperature.minimum)}
+          <span className="index">°C</span>
         </span>
       </div>
     </div>
